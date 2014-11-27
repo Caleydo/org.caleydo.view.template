@@ -5,7 +5,7 @@
  ******************************************************************************/
 package org.caleydo.view.template.internal;
 
-import org.caleydo.core.gui.command.AOpenViewHandler;
+import org.caleydo.core.internal.cmd.AOpenViewHandler;
 
 /**
  * simple command handler for opening this view
@@ -15,6 +15,6 @@ import org.caleydo.core.gui.command.AOpenViewHandler;
  */
 public class OpenViewHandler extends AOpenViewHandler {
 	public OpenViewHandler() {
-		super(GLTemplateSingleView.VIEW_TYPE, SINGLE);
+		super(TemplateSingleView.VIEW_TYPE, SINGLE);
 	}
 }
